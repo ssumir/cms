@@ -103,7 +103,8 @@ function App() {
   return (
     <Routes>
       {/* Public Routes */}
-      <Route path="/" element={<Navigate to="Home" />} />
+        <Route path="/" element={<Navigate to="auth/login" />} />
+      {/* <Route path="/" element={<Navigate to="Home" />} /> */}
       <Route path="/Home" element={<Home />} />
 
       {/* Auth Routes */}
